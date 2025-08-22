@@ -1,0 +1,94 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 1rem;
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  color: #fff;
+}
+
+h2, h3, h4, h5 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.form-label {
+  color: #b0b0b0;
+}
+
+.form-control {
+  background-color: #333333;
+  border: 1px solid #444444;
+  color: #e0e0e0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #00bfa5;
+  box-shadow: 0 0 8px #00bfa5;
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.btn-primary, .btn-outline-primary {
+  border-radius: 0.5rem;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+}
+
+.btn-success, .btn-outline-success {
+  border-radius: 0.5rem;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+}
+
+a {
+  color: #00bfa5;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #008e76;
+  text-decoration: underline;
+}
+
+.alert {
+  border-radius: 1rem;
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: #111;
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #00bfa5;
+}
+
+.navbar-text {
+  color: #00bfa5;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+p{
+    color: white;
+}

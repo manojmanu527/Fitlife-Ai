@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Routine & Alerts - FitLife AI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-black shadow-sm mb-4">
+    <div class="container-fluid">
+      <a href="dashboard.html" class="navbar-brand fw-bold">← Dashboard</a>
+      <span class="navbar-text fw-bold text-success">FitLife AI</span>
+    </div>
+  </nav>
+
+  <div class="container py-4">
+    <h2 class="fw-bold text-center mb-4">Your Daily Routine & Alerts</h2>
+    <p class="lead text-center text-muted mb-5">
+      Here’s your personalized roadmap for a successful, healthy day.
+    </p>
+
+    <!-- Estimated Time Section -->
+    <div class="card bg-gradient shadow-lg p-4 mb-4" style="background: #2a2a37;">
+      <h5 class="text-success mb-3 fw-semibold">Estimated Time for Today</h5>
+      <ul class="list-group list-group-flush text-light">
+        <li class="list-group-item bg-transparent d-flex justify-content-between">
+          Workout Time <span>45 minutes</span>
+        </li>
+        <li class="list-group-item bg-transparent d-flex justify-content-between">
+          Meal Prep/Intake <span>90 minutes</span>
+        </li>
+        <li class="list-group-item bg-transparent d-flex justify-content-between">
+          Relaxation & Rest <span>60 minutes</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Daily Alerts Section -->
+    <div class="card shadow-lg p-4" style="background: #2a3732;">
+      <h5 class="text-warning mb-3 fw-semibold">Today's Alerts & Reminders</h5>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item bg-transparent text-white">
+          <i class="bi bi-bell-fill text-warning me-2"></i>
+          Drink at least 8 glasses of water today for optimal hydration.
+        </li>
+        <li class="list-group-item bg-transparent text-white">
+          <i class="bi bi-bell-fill text-warning me-2"></i>
+          Don't forget your evening stretching routine before bed.
+        </li>
+        <li class="list-group-item bg-transparent text-white">
+          <i class="bi bi-bell-fill text-warning me-2"></i>
+          Wear comfortable shoes for your 15-minute walk after lunch.
+        </li>
+      </ul>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="dashboard.html" class="btn btn-outline-light btn-lg">Back to Dashboard</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap Icons CDN for bell icons -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.js"></script>
+</body>
+</html>

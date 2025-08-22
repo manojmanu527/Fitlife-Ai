@@ -1,0 +1,80 @@
+/* dashboard.css */
+body.bg-dark {
+  background-color: #121a26;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h5 {
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, rgba(22, 29, 42, 0.85), rgba(24, 31, 39, 0.95));
+  color: #e0e0e0;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgb(0 0 0 / 0.8);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  color: #d0d0d0;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.9);
+  font-size: 0.95rem;
+}
+
+.card .btn {
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn-lg {
+  min-width: 180px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.card.bg-gradient.text-success {
+  color: #68b16f !important;
+}
+
+#healthSummary div {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+.navbar {
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.8);
+}
+
+.lead {
+  font-weight: 400;
+  color: #bcccdc;
+}
+
+@media (max-width: 768px) {
+  .card .btn {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+  #healthSummary div {
+    font-size: 1rem;
+  }
+}
